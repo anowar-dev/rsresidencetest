@@ -1,0 +1,723 @@
+@import url("style.css");
+
+
+/* Max width 1400px  */
+@media (max-width: 1400px) {
+    .combo_planBody{
+        height: 32rem;
+    }
+    .same .combo_planBody{
+        height: 30.2rem;
+    }
+    .addtionalPlanSbig.row4 .addituonalRight{
+        right: 0.5rem;
+        top: 4rem;
+    }
+    .additionalplanSingle{
+        height: 450px;
+    }
+}
+
+/* ========= Max width 1200px =========== */
+@media (max-width: 1200px) {
+
+    .additionalplanSingle{
+        height: 480px;
+    }
+    .addtionalPlanSbig .addituonalRight{
+        right: 0.5rem;
+        top: 4rem;
+    }
+    .cart_left{
+        width: 100%;
+    }
+    .cart_main{
+        flex-direction: column;
+    }
+    .cart_right{
+        margin-left: auto;
+        margin-top: -5rem;
+    }
+    /* Augth page */
+    .aught_single{
+        padding: 1rem 0 1rem .5rem;
+    }
+    .aught_single.login{
+        padding: 1rem .5rem 1rem 0;
+    } 
+
+
+    /* Homed page for 1200px */
+    .ceo_right iframe{
+        height: 15.2rem;
+    }
+    .consultationBody{
+        padding: 2rem 1rem 2rem 2px;
+    }
+    .footerTleft{
+        width: 10rem;
+        margin-right: auto;
+    }
+    .footerTright{
+        column-gap: 1rem;
+    }
+
+    /* Inner page for 1200px */
+    .mentor_choose_single{
+        width: 48%;
+    }
+    .mentor_choose_inner{
+        row-gap: 2.5rem;
+    }
+}
+
+/* ======== Max width =========== 922px */
+@media (max-width: 992px) {
+
+    .addtionalPlanSbig.row4 .addituonalRight{
+        right: -5rem;
+        top: 1rem;
+    }
+    .addtionalPlanSbig.row4{
+        margin-left: auto;
+    }
+    .addtionalPlanSbig .addituonalRight {
+        right: -4.5rem;
+        top: 1rem;
+    }
+    .addtionalPlanSbig.row2{
+        margin-left: auto;
+    }
+    .addtionalPlanSbig.row1{
+        margin-left: auto;
+    }
+    .additionalplanSingle{
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .product_data_inner.usme .paragraph:first-child{
+        margin-top: 1.5rem;
+    }
+    .sub_title.textCenterMatch{
+        width: 100%;
+    }
+    .team_single{
+        width: 100%;
+    }    
+    .team_single:nth-child(odd){
+        border-right: 1px solid var(--primary-black);
+    }
+    .team_single:nth-last-child(2){
+        border-bottom: 0;
+    }
+
+    /* width 922px for dashboard */
+    .dashboardSitebar .nav-item .nav-link{
+        width: 12rem;
+    }
+    .dashboard_section{
+        padding: 4rem 0;
+    }
+    .dashboard_inner_single{
+        padding-left: 0;
+    }
+    .dashboardBody {
+        width: calc(100% - 13rem);
+    }
+    /* width 922px for dashboard end */
+
+    .newOldPassSingle{
+        width: 100%;
+    }
+    .deliveriInfo{
+        flex-direction: column;
+    }
+    .checkout_right, .checkout_left{
+        width: 100%;
+    }
+    .cart_right{
+        margin-top: unset;
+        margin-left: 0;
+    }
+    .passwordresetsection, .checkout_section, .cart_section{
+        padding: 4rem 0;
+    }
+    
+    /* partner section */
+    .partner_topSection{
+        padding: 4rem 0;
+    }
+    .partnerTop_main{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .partnerTop_img{
+        width: 100%;
+        max-width: 25rem;
+    }
+    .partnerTop_data{
+        width: 100%;
+    }
+    .combo_planBody{
+        height: unset;
+        margin-bottom: 2.5rem;
+    }
+    .combo_body_bottom{
+        position: unset;
+    }
+    .same .combo_planBody{
+        height: unset;
+    }
+    .servicer_inner_single{
+        text-align: justify;
+        margin-bottom: 3rem;
+    }
+    .contactSection.partnersection{
+        padding: unset;
+    }
+    
+    /* home page for 992px */
+    .topSliderSection{
+        height: 45rem;
+    }
+    .indicators{
+        left: 56.5%;
+        transform: translateX(-50%);
+        top: 78%;
+        display: flex;
+        column-gap: .5rem;
+    }
+    .indic{
+        width: 1rem;
+        height: 1rem;
+        overflow: hidden;
+        border-radius: 50%;
+        background: black;
+        background: var(--white);
+    }
+    .sicgle_slider .slider_data{
+        text-align: center;
+    }
+    .sliderparagraph{
+        width: 100%;
+    }
+    .borderDiv{
+        margin: 2rem auto;
+        width: 23rem;
+    }
+    .successSection{
+        padding: 2rem 0 3rem 0;
+        box-shadow: 0 0 50px 110px var(--white);
+    }
+    .desktop_rightSide{
+        border-left: none;
+    }
+    .successSingle{
+        width: 32%;
+    }
+    .achievementMain{
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+    .achievementRight, .achievementLeft{
+        width: 100%;
+    }
+    .achievementRight{
+        display: none;
+    }
+    .achievementIsingle{
+        text-align: center;
+    }
+    .contactSection .contactMain{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .contactMain .contactLeft{
+        display: none;
+    }
+    .contactRight{
+        width: 100%;
+        text-align: center;
+    }
+    .footertop{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .footerTright{
+        margin-right: auto;
+    }
+
+    /* About us page for 992px */
+    .ceo_inner{
+        flex-direction: column-reverse;
+        row-gap: 3rem;
+    }
+    .ceo_right iframe{
+        height: 20rem;
+    }
+    .ceo_inner.vission{
+        flex-direction: column;
+    }
+    .ceo_section, .contact_form_section{
+        padding: 2rem 0 4rem 0;
+        box-shadow: 0 0 50px 70px var(--white);
+    }
+
+    .mentor_choose_single{
+        width: 100%;
+    }
+    .faqsContact{
+        padding: 0;
+    }
+    .dasOrderTable.table{
+        width: max-content;
+        overflow: auto;
+    }
+    .dashboardSitebar .nav-item .nav-link{
+        padding: 0.8rem 1rem;
+    }
+
+    .fiiterMiddleSingle:nth-child(2){
+        margin-left: 0;
+    }
+    .fiiterMiddleSingle:last-child{
+        margin-left: 0;
+    }
+    .fiiterMiddleSingle{
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+    .fiiterMiddleSingle:first-child{
+        width: 48%;
+    }
+    .fiiterMiddleSingle:nth-child(2){
+        width: 48%;
+    }
+    .interviewPlanSingleS{
+        width: 100%;
+        height: fit-content;
+    }
+    .pdescription_main.interviewPlan{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px) {
+    .contantPaperInner{
+        top: 0;
+        left: 0;
+        transform: unset;
+        width: 800px;
+        height: 100vh;
+        overflow: auto;
+        margin-right: auto;
+    }
+}
+/* ============= Max width 767px ============ */
+
+@media (max-width: 768px) {
+
+    
+   
+    .team_single{
+        text-align: center;
+    }
+    .team_single .team_top{
+        flex-direction: column;
+    }
+    .dashboard_main{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .dashboardBody{
+        width: 100%;
+    }
+    .dashboardSitebar{
+        position: unset;
+    }
+    .dashboardSitebar{
+        width: 100%;
+    }
+    .dashboardSitebar .nav-item .nav-link{
+        width: 100%;
+    }
+    
+    .desliveryName{
+        flex-direction: column;
+    }
+    .dVNmaneSimgle{
+        width: 100%;
+    }
+
+    .dashboard_section, .passwordresetsection, .checkout_section, .cart_section, .partner_topSection{
+        padding: 3rem 0;
+    }
+    .title.error_title{
+        font-size: 6rem;
+    }
+    
+    /* home page for 767px */
+    .successSingle{
+        width: 49%;
+    }
+    .consultationBody{
+        padding: 2rem 2px;
+    }
+    .consultationCalenderDiv{
+        flex-direction: column;
+    }
+    .calenderInnerDate, .calenderInnerTime{
+        width: 100%;
+    }
+    .p-2.js-collapse{
+        position: unset;
+    }
+    .calenderInnerTime{
+        margin-top: 2rem;
+    }
+    .topSliderSection{
+        height: 41rem;
+    }
+    .indicators{
+        top: 76%;
+    }
+    .footerTright{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .footerRsingle{
+        margin-right: auto;
+    }
+    .footerMiddle{
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: center;
+    }
+    .footerLinks{
+        width: 100%;
+        white-space: nowrap;
+    }
+    .fiiterMiddleSingle:first-child{
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fiiterMiddleSingle:nth-child(2){
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fiiterMiddleSingle{
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fiiterMiddleSingle:last-child{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    /* Conttact page for 768px */
+    .sectionDevider {
+        box-shadow: 0 0 50px 70px var(--white);
+    }
+    .aught_section{
+        padding: 3rem 0;
+    }
+    .aught_single{
+        padding: 0 .2rem;
+    }
+    .aught_single.login{
+        padding: 0 .5rem;
+        margin-bottom: 2rem;
+        position: relative;
+        z-index: 2;
+    }
+    .slider_data.singlepage{
+        margin-top: 30%;
+    }
+    .topSliderSection.singlepage{
+        height: 27rem;
+    }
+    .title{
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+    }
+    .sub_title{
+        font-size: 1.75rem;
+    }
+    .primary_btn{
+        font-size: 1rem;
+        padding: 0.7rem 1.8rem;
+    }
+    .borderDiv{
+        margin: 1.5rem auto;
+        width: 21rem;
+    }
+    .sliderparagraph{
+        font-size: 1.35rem;
+    }
+    .titleParagraph{
+        font-size: 1.1rem;
+    }
+    .sub_title2{
+        font-size: 1.3rem;
+    }
+    .sub_title3{
+        font-size: 1.6rem;
+    }
+    .sectionPadding{
+        padding: 4rem 0;
+    }
+    .consultTopInner{
+        padding: 1.5rem 0;
+    }
+    .product_details_section{
+        padding-top: 2rem 0 5rem 0;
+        box-shadow: 0 0 50px 70px var(--white);
+    }
+    .servicesPageSection, .mentor_choose_section{
+        padding: 4rem 0;
+    }
+
+    .name_email_div {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .name_email_div .single{
+        width: 100%;
+    }
+}
+
+/* ============ Max width 576px ============= */
+@media (max-width: 576px) {
+    .passwordresetsection, .servicesPageSection, .mentor_choose_section{
+        padding: 3rem 0;
+    }
+    .borderDiv{
+        margin: 1.2rem auto;
+        width: 20rem;
+    }
+    .sliderparagraph{
+        margin-bottom: 2rem;
+    }
+    .clientTestimonialInner.testimonialSlider.row.slick-initialized.slick-slider{
+        max-width: 100%;
+    }
+    .slick-next::before{
+        margin-right: .5rem;
+        z-index: 999;
+    }
+    .slick-prev::before{
+        margin-left: 1.8rem;
+        z-index: 999;
+    }
+    .sectionPadding{
+        padding: 3rem 0;
+    }
+
+    .achievementIsingle .ASTcontent{
+        font-size: 1.6rem;
+    }
+    .achievementIsingle .ASBdata{
+        font-size: 1.1rem;
+    }
+    .sectionDevider {
+        box-shadow: 0 0 50px 70px var(--white);
+    }
+    .aught_section{
+        padding: 0 0 3rem 0;
+    }
+    .blue_title{
+        font-size: 1.1rem;
+    }
+    .sub_title4{
+        font-size: 1.4rem;
+    }
+    .paragraph{
+        font-size: 1rem;
+    }
+    .whyus_inner_top i{
+        font-size: 1.8rem;
+    }
+    .team_name_title .team_name{
+        font-size: 1.7rem;
+    }
+    .team_position{
+        font-size: 1rem;
+    }
+    .team_top img{
+        width: 8rem;
+    }
+    .title.error_title{
+        font-size: 5rem;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Max width 520px */
+@media (max-width: 520px) {
+    .serviseMainImgDiv{
+        width: 110px;
+        height: 110px;
+    }
+    .checkout_right, .cart_total_inner, .password_up{
+        padding: 1.5rem .9rem;
+    }
+    .dashboard_section, .checkout_section, .cart_section, .partner_topSection{
+        padding: 2rem 0;
+    }
+    .accordion-header.checkout{
+        flex-direction: column;
+    }
+    .accordion-header .ahTitle{
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+        text-align: left;
+        margin-right: auto;
+    }
+    .checkoutAH.accordion-button{
+        margin-right: auto;
+    }
+    .checkoutCouponSubmit{
+        flex-direction: column;
+    }
+    .checkoutCouponSubmit input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .checkoutCouponSubmit .small_btn{
+        width: fit-content;
+        margin-left: auto;
+    }
+    .cupponSubmit{
+        margin-bottom: 1rem;
+    }
+    .name_and_email{
+        flex-direction: column;
+    }
+    .nameEmailInnerFree{
+        width: 100%;
+    }
+    .principle_bigText{
+        font-size: 4rem;
+    }
+    .ceo_right iframe {
+        height: 17rem;
+    }
+    .sub_title3{
+        font-size: 1.5rem;
+    }
+}
+
+/* Max width 480px */
+@media (max-width: 480px) {
+    .servicesPageSection, .mentor_choose_section{
+        padding: 2rem 0;
+    }
+
+    .augth_form_inner{
+        padding: 1.5rem .5rem;
+    }
+    .topSliderSection{
+        height: 35rem;
+    }
+    .indicators{
+        top: 74%;
+    }
+    .successSection {
+        padding: 0rem 0 3rem 0;
+    }
+    .successBody{
+        margin-top: 4rem;
+    }
+    .successSingle span{
+        font-size: 1.1rem;
+    }
+    .successSingle{
+        width: 100%;
+    }
+    .contactTitle{
+        font-size: 1.3rem;
+    }
+    .ceo_section, .contact_form_section {
+        padding: 2rem 0 3rem 0;
+    }
+    .ceo_right{
+        margin-bottom: -1.4rem;
+    }
+    .cMobileDiv{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .contact_form_main{
+        padding: 1.5em 1rem;
+    }
+    .borderDiv {
+        margin: .5rem auto;
+        width: 18rem;
+    }
+    .title {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+    }
+    .sliderparagraph {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    .indicators {
+        top: 70%;
+    }
+    .sub_title {
+        font-size: 1.7rem;
+    }
+    .slider_data.singlepage {
+        margin-top: 35%;
+    }
+    .ceo_right iframe {
+        height: 15rem;
+    }
+}
+
+/* Max width 420px */
+@media (max-width: 420px) {
+    .sicgle_slider .slider_data {
+        margin-top: 35%;
+        position: relative;
+    }
+    .topSliderSection.singlepage {
+        height: 25rem;
+    }
+    .ceo_right iframe {
+        height: 13rem;
+    }
+    .sub_title4{
+        font-size: 1.3rem;
+    }
+}
+
+/* Max width 370px */
+@media (max-width: 370px) {
+    .sicgle_slider .slider_data {
+        margin-top: 40%;
+        position: relative;
+    }
+    .topSliderSection.singlepage {
+        height: 24rem;
+    }
+    .ceo_right iframe {
+        height: 12rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .principle_bigText{
+        font-size: 3rem;
+    }
+}
